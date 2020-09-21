@@ -1,2 +1,10 @@
 # curl_checker
-check http status for url list
+Скрипт для массовой проверки http статусов по списку URL.
+
+На вход отдаем список URL в файле 'urls.txt':
+bash curl.sh
+
+Результат сохраняется в файле 'result.csv':
+- http код
+- проверенный url
+- url для редиректа, если http код 30*
